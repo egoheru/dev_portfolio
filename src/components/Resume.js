@@ -7,33 +7,38 @@ import { motion } from 'framer-motion'
 const languages = [
     {
       icon:python,
-      name: "Python",
-      level: "45"
+      name: "JavaScript",
+      level: "80"
     },
     {
         icon:react,
-        name: "Java",
-        level: "60"
+        name: "Material-UI",
+        level: "75"
       },
       {
         icon:react,
-        name: "HTML",
+        name: "React",
         level: "80"
       },
       {
         icon:react,
-        name: "react",
-        level: "60"
+        name: "React|Redux",
+        level: "75"
       },
       {
         icon:react,
-        name: "Django",
-        level: "80"
+        name: "React|Nextjs",
+        level: "65"
       },
       {
         icon:react,
-        name: "Bootstrap",
-        level: "80"
+        name: "Nodejs",
+        level: "75"
+      }, 
+      {
+        icon:react,
+        name: "Express",
+        level: "70"
       }
 ]
 
@@ -60,7 +65,7 @@ const tools = [
           },
         {
             icon:react,
-            name: "Jama",
+            name: "Bootstrap",
             level: "60"
           }
 ]
@@ -100,12 +105,12 @@ const tools = [
                </h4>
                <div className="resume-card__body">
                   <h5 className="resume-card__title">
-                      Computer Science Engineering
+                      Computer Science
                   </h5>
                   <p className="resume-card__name">
-                      Academy of Technology(2017-2021)
+                      Bamenda international University (2013-2017)
                   </p>
-                  <p className="resume-card__details">Loremm fghjk dfghjkl dfghj fghjk dfghjk drtyu b rtyuiy rtyuiohyhjkk </p>
+                  <p className="resume-card__details">Completed B.tech in Computer Science Engineering from Bamenda internatonal Universty </p>
                </div>
           </div> 
           <div className="col-lg-6 resume-card">
@@ -114,12 +119,12 @@ const tools = [
                </h4>
                <div className="resume-card__body">
                   <h5 className="resume-card__title">
-                      Intern
+                       Areas of Forcust
                   </h5>
-                  <p className="resume-card__name">
-                      TCS (2020)
+                  <p className="resume-card__name">                     
+                      Javascript Programmer
                   </p>
-                  <p className="resume-card__details">Loremm fghjk dfghjkl dfghj fghjk dfghjk drtyu b rtyuiy rtyuiohyhjkk </p>
+                  <p className="resume-card__details">Test suitability of Web App build with the Javascript tech </p>
                </div>
           </div> 
         </div>
@@ -139,7 +144,7 @@ const tools = [
         </div>
         <div className="col-lg-6 resume-languages">
             <h5 className="resume-language__heading">
-                Tools and softwares
+                Tools
             </h5>
             <div className="resume-language__body mt-3">
                {

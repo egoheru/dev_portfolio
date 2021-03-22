@@ -7,76 +7,86 @@ import color_classification from '../../assets/projects_images/color_classificat
 import blinking from '../../assets/projects_images/blinking.JPG'
 import COVID from '../../assets/projects_images/COVID.jpg'
 import Dev_talks from '../../assets/projects_images/Dev_talks.jpg'
+import netflix from '../../assets/projects_images/netflix.png'
+import amazon from '../../assets/projects_images/amazon.jpg'
+import social from '../../assets/projects_images/social.GIF'
+import linkedin from '../../assets/projects_images/linkedin.GIF'
+import recipe from '../../assets/projects_images/recipe.GIF'
+import budget from '../../assets/projects_images/budget.GIF'
 
 const data_projects = [
     {
-        name: 'COVID 19 tracker',
+        name: 'COVID 19 track Check for Statistics',
         image: COVID,
-        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
-        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        deployed_url: 'https://covid-tracker-3b12a.web.app/',
+        github_url: 'https://github.com/egoheru/react-covid-tracker',
         category: ['react.js']
     },
 
     {
-        name: 'Dev Talks',
-        image: Dev_talks,
-        deployed_url: 'https://dev-talks.herokuapp.com/',
+        name: 'NETFLIX APP | Fully Functional E-Commerce Support-Stripe',
+        image: netflix,
+        deployed_url: 'https://netflix-ego.web.app/',
         github_url: 'https://github.com/Dey-Sumit/Dev-talks',
         category: ['node.js', 'mongodb', 'react.js']
     },
 
     {
-        name: 'Realtime Chat App',
-        image: chatapp,
-        deployed_url: 'https://sumit-chat.netlify.app/',
-        github_url: 'https://github.com/Dey-Sumit/chat-app-socket.io-react-node',
+        name: 'Full-Stack Social Media App Full Functional working App',
+        image: social,
+        deployed_url: 'https://socialappe-72b1d.web.app/',
+        github_url: 'https://github.com/egoheru/socialego-client',
         category: ['node.js', 'socket.io', 'react.js']
     },
 
     {
-        name: 'Tweeter Clone',
-        image: tweetme,
-        deployed_url: 'http://sumaxtweetme.pythonanywhere.com/',
-        github_url: 'https://github.com/Dey-Sumit/tweetme',
-        category: ['django', 'react', 'mongodb']
+        name: 'LinkedIn Clone App | Social App ',
+        image: linkedin,
+        deployed_url: 'https://linkedin-ego.web.app/',
+        github_url: 'https://github.com/egoheru/linkedIn-app',
+        category: ['django', 'react.js', 'mongodb']
     },
 
     {
-        name: 'Shop Website',
-        image: hardware_store,
-        deployed_url: '!#',
-        category: ['html_css', 'vanilla', 'node.js']
+        name: 'Full-Stack Ecommerce Web Shop Amazon-like Fully E-Commerce Stripe  ',
+        image: amazon,
+        deployed_url: 'https://ego-53f33.web.app/',
+        category: ['react.js', 'vanilla', 'node.js']
     },
 
     {
-        name: 'Dev Portfolio',
-        image: portfolio,
-        deployed_url: 'http://suprateem.herokuapp.com/',
+        name: 'Food Recipe App',
+        image: recipe,
+        deployed_url: 'https://ego-searching-recipe.herokuapp.com/',
+        github_url: 'https://github.com/egoheru/food-searching-app',
         category: ['vanilla']
     },
 
     {
-        name: 'Bengali New Year',
-        image: new_year,
-        deployed_url: 'https://dey-sumit.github.io/NewYear/',
-        category: ['node.js', 'vanilla', 'react.js']
-    },
-
-    {
-        name: 'Color Classification using tf.js',
-        image: color_classification,
-        deployed_url: '!#',
-        github_url: 'https://github.com/Dey-Sumit/color-classification',
-        category: ['node.js', 'machine_learning']
-    },
-
-    {
-        name: 'Blinking bubbles',
-        image: blinking,
-        deployed_url: 'https://dey-sumit.github.io/Blinking_Bubbles/',
-        github_url: 'https://github.com/Dey-Sumit/Blinking_Bubbles',
-        category: ['processing', 'vanilla' ]
+        name: 'Expense Tracker | Budget Tracker',
+        image: budget,
+        deployed_url: 'https://ego-budget-tracker.web.app/',
+        category: ['node.js', 'vanilla', 'react.js'],
+        github_url: 'https://github.com/egoheru/food-searching-app',
+        
     }
+    // ,
+
+    // {
+    //     name: 'Color Classification using tf.js',
+    //     image: color_classification,
+    //     deployed_url: '!#',
+    //     github_url: 'https://github.com/Dey-Sumit/color-classification',
+    //     category: ['node.js', 'machine_learning']
+    // },
+
+    // {
+    //     name: 'Blinking bubbles',
+    //     image: blinking,
+    //     deployed_url: 'https://dey-sumit.github.io/Blinking_Bubbles/',
+    //     github_url: 'https://github.com/Dey-Sumit/Blinking_Bubbles',
+    //     category: ['processing', 'vanilla' ]
+    // }
 ]
 
 export default data_projects;
