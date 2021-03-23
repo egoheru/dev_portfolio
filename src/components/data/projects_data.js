@@ -20,7 +20,7 @@ const data_projects = [
         image: COVID,
         deployed_url: 'https://covid-tracker-3b12a.web.app/',
         github_url: 'https://github.com/egoheru/react-covid-tracker',
-        category: ['react.js']
+        category: ['react.js, TypeScript']
     },
 
     {
@@ -59,7 +59,7 @@ const data_projects = [
         image: recipe,
         deployed_url: 'https://ego-searching-recipe.herokuapp.com/',
         github_url: 'https://github.com/egoheru/food-searching-app',
-        category: ['vanilla']
+        category: ['vanilla', 'Mongodb']
     },
 
     {

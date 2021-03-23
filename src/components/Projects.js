@@ -38,11 +38,11 @@ const Projects = () => {
         
         >
             <div className="projects__navbar">
-                <div onClick={() => setProjects(data_projects)}>All</div>
-                <div onClick={() => handleFilterCategory('react.js')} >React</div>
-                <div onClick={() => handleFilterCategory('mongodb')} >Mongodb</div>
-                <div onClick={() => handleFilterCategory('node.js')} >Node</div>
-                <div onClick={() => handleFilterCategory('vanilla')} >Vanilla</div>   
+                <div onClick={() => setProjects(data_projects)}>React</div>
+                <div onClick={() => handleFilterCategory('react.js')} >RU</div>
+                <div onClick={() => handleFilterCategory('mongodb')} >RM</div>
+                <div onClick={() => handleFilterCategory('node.js')} >RN</div>
+                <div onClick={() => handleFilterCategory('vanilla')} >RS</div>   
             </div>
             <div className="row">
                 
