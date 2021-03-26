@@ -13,6 +13,7 @@ import social from '../../assets/projects_images/social.GIF'
 import linkedin from '../../assets/projects_images/linkedin.GIF'
 import recipe from '../../assets/projects_images/recipe.GIF'
 import budget from '../../assets/projects_images/budget.GIF'
+import starbucks from '../../assets/projects_images/starbucks.GIF'
 
 const data_projects = [
     {
@@ -55,6 +56,14 @@ const data_projects = [
     },
 
     {
+        name: 'Starbucks App | Fullstack Working App',
+        image: starbucks,
+        deployed_url: 'https://ego-starbucks.web.app/',
+        github_url: 'https://github.com/egoheru/ego-starbucks',
+        category: ['node.js', 'react.js']
+    },
+
+    {
         name: 'Food Recipe App',
         image: recipe,
         deployed_url: 'https://ego-searching-recipe.herokuapp.com/',
@@ -71,14 +80,6 @@ const data_projects = [
         
     }
     // ,
-
-    // {
-    //     name: 'Color Classification using tf.js',
-    //     image: color_classification,
-    //     deployed_url: '!#',
-    //     github_url: 'https://github.com/Dey-Sumit/color-classification',
-    //     category: ['node.js', 'machine_learning']
-    // },
 
     // {
     //     name: 'Blinking bubbles',

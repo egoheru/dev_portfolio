@@ -17,7 +17,7 @@ import LocationOffIcon from '@material-ui/icons/LocationOff';
 
 const Sidebar = () => {
     const handleEmailMe = () => {
-        window.open("mailto:codesumax@gmail.com")
+        window.open("mailto:codewithego@gmail.com")
     }
     
     const sidebar_variant = {
